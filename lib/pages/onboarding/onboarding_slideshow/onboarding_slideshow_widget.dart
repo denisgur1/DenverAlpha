@@ -330,7 +330,7 @@ class _OnboardingSlideshowWidgetState extends State<OnboardingSlideshowWidget>
                                                 const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 0.0, 0.0, 32.0),
                                             child: Text(
-                                              'Delicious and Nutritious Fresh Meals',
+                                              'הדרך שלך להכנס לכושר ותזונה בריאה',
                                               textAlign: TextAlign.center,
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -347,8 +347,8 @@ class _OnboardingSlideshowWidgetState extends State<OnboardingSlideshowWidget>
                                             padding:
                                                 const EdgeInsetsDirectional.fromSTEB(
                                                     24.0, 0.0, 24.0, 0.0),
-                                            child: Image.network(
-                                              'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/meal-planner-3nia1o/assets/og5l0duupnzv/Chef_Cooking.png',
+                                            child: Image.asset(
+                                              'assets/images/Fitness-clip-art-images-illustrations-photos-3.jpg',
                                               height: 250.0,
                                               fit: BoxFit.contain,
                                             ).animateOnPageLoad(animationsMap[
@@ -359,7 +359,7 @@ class _OnboardingSlideshowWidgetState extends State<OnboardingSlideshowWidget>
                                                 const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 48.0, 0.0, 0.0),
                                             child: Text(
-                                              'Enjoy healthy and delicious meals delivered to your doorstep, prepared with fresh, high-quality ingredients.',
+                                              'תן לעוזר האישי שלנו להתאים לך את התוכנית המושלמת',
                                               textAlign: TextAlign.center,
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -383,7 +383,7 @@ class _OnboardingSlideshowWidgetState extends State<OnboardingSlideshowWidget>
                                                 const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 0.0, 0.0, 32.0),
                                             child: Text(
-                                              'Gourmet Quality,\nHassle-Free',
+                                              'אימונים אישיים במאה ה21',
                                               textAlign: TextAlign.center,
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -400,8 +400,8 @@ class _OnboardingSlideshowWidgetState extends State<OnboardingSlideshowWidget>
                                             padding:
                                                 const EdgeInsetsDirectional.fromSTEB(
                                                     24.0, 0.0, 24.0, 0.0),
-                                            child: Image.network(
-                                              'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/meal-planner-3nia1o/assets/jevo7qiwpcte/Customers_Enjoy_Food.png',
+                                            child: Image.asset(
+                                              'assets/images/astronaut-flight-preparation-human-health-260nw-2235508461.webp',
                                               height: 250.0,
                                               fit: BoxFit.contain,
                                             ).animateOnPageLoad(animationsMap[
@@ -412,7 +412,7 @@ class _OnboardingSlideshowWidgetState extends State<OnboardingSlideshowWidget>
                                                 const EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 48.0, 0.0, 0.0),
                                             child: Text(
-                                              'Savor chef-inspired meals without the hassle of cooking or cleaning up, with our gourmet meal delivery service.',
+                                              'באמצעות אינטיליגנציה מלאכותית, העוזר שלנו יוכל ללמוד את ההרגלים שלך ולספק לך שירות אישי וממוקד',
                                               textAlign: TextAlign.center,
                                               style:
                                                   FlutterFlowTheme.of(context)

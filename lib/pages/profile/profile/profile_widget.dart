@@ -420,74 +420,59 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ],
                                       ),
                                     ),
-                                  InkWell(
-                                    splashColor: Colors.transparent,
-                                    focusColor: Colors.transparent,
-                                    hoverColor: Colors.transparent,
-                                    highlightColor: Colors.transparent,
-                                    onTap: () async {
-                                      logFirebaseEvent(
-                                          'PROFILE_PAGE_SupportCenterTile_ON_TAP');
-                                      logFirebaseEvent(
-                                          'SupportCenterTile_navigate_to');
-
-                                      context.pushNamed('SupportCenter');
-                                    },
-                                    child: Column(
-                                      mainAxisSize: MainAxisSize.max,
-                                      children: [
-                                        Padding(
-                                          padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
-                                                  0.0, 12.0, 0.0, 12.0),
-                                          child: Row(
-                                            mainAxisSize: MainAxisSize.max,
-                                            children: [
-                                              Container(
-                                                width: 40.0,
-                                                height: 40.0,
-                                                decoration: BoxDecoration(
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    children: [
+                                      Padding(
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
+                                            0.0, 12.0, 0.0, 12.0),
+                                        child: Row(
+                                          mainAxisSize: MainAxisSize.max,
+                                          children: [
+                                            Container(
+                                              width: 40.0,
+                                              height: 40.0,
+                                              decoration: BoxDecoration(
+                                                color:
+                                                    FlutterFlowTheme.of(context)
+                                                        .accent1,
+                                                shape: BoxShape.circle,
+                                              ),
+                                              child: Padding(
+                                                padding: const EdgeInsets.all(4.0),
+                                                child: Icon(
+                                                  Icons.support_rounded,
                                                   color: FlutterFlowTheme.of(
                                                           context)
-                                                      .accent1,
-                                                  shape: BoxShape.circle,
-                                                ),
-                                                child: Padding(
-                                                  padding: const EdgeInsets.all(4.0),
-                                                  child: Icon(
-                                                    Icons.support_rounded,
-                                                    color: FlutterFlowTheme.of(
-                                                            context)
-                                                        .primary,
-                                                    size: 20.0,
-                                                  ),
+                                                      .primary,
+                                                  size: 20.0,
                                                 ),
                                               ),
-                                              Padding(
-                                                padding: const EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        18.0, 0.0, 0.0, 0.0),
-                                                child: Text(
-                                                  'Support Center',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyLarge
-                                                      .override(
-                                                        fontFamily: 'Inter',
-                                                        letterSpacing: 0.0,
-                                                      ),
-                                                ),
+                                            ),
+                                            Padding(
+                                              padding: const EdgeInsetsDirectional
+                                                  .fromSTEB(
+                                                      18.0, 0.0, 0.0, 0.0),
+                                              child: Text(
+                                                'Support Center',
+                                                style:
+                                                    FlutterFlowTheme.of(context)
+                                                        .bodyLarge
+                                                        .override(
+                                                          fontFamily: 'Inter',
+                                                          letterSpacing: 0.0,
+                                                        ),
                                               ),
-                                            ],
-                                          ),
+                                            ),
+                                          ],
                                         ),
-                                        Divider(
-                                          thickness: 1.0,
-                                          color: FlutterFlowTheme.of(context)
-                                              .accent4,
-                                        ),
-                                      ],
-                                    ),
+                                      ),
+                                      Divider(
+                                        thickness: 1.0,
+                                        color: FlutterFlowTheme.of(context)
+                                            .accent4,
+                                      ),
+                                    ],
                                   ),
                                   if ((columnCompanyInformationRecord?.email !=
                                               null &&

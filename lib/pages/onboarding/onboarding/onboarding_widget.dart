@@ -574,12 +574,15 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                                 chipSpacing: 12.0,
                                                 rowSpacing: 20.0,
                                                 multiselect: false,
+                                                initialized:
+                                                    _model.choiceChipsValue !=
+                                                        null,
                                                 alignment: WrapAlignment.start,
                                                 controller: _model
                                                         .choiceChipsValueController ??=
                                                     FormFieldController<
                                                         List<String>>(
-                                                  [],
+                                                  ['Mass'],
                                                 ),
                                                 wrapped: true,
                                               ),
