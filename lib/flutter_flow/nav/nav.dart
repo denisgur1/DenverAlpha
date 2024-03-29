@@ -8,7 +8,6 @@ import '/auth/base_auth_user_provider.dart';
 
 import '/index.dart';
 import '/main.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 
 export 'package:go_router/go_router.dart';
@@ -370,13 +369,10 @@ class FFRoute {
               : builder(context, ffParams);
           final child = appStateNotifier.loading
               ? Container(
-                  color: FlutterFlowTheme.of(context).primaryBackground,
-                  child: Center(
-                    child: Image.asset(
-                      'assets/images/MealPlanner_Rounded.png',
-                      width: 175.0,
-                      fit: BoxFit.cover,
-                    ),
+                  color: Colors.transparent,
+                  child: Image.asset(
+                    'assets/images/mascot.png',
+                    fit: BoxFit.cover,
                   ),
                 )
               : page;
